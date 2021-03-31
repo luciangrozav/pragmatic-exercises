@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0aba58d-bf64-459e-b63e-459cd3e1f307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ArrayValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ArrayValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +81,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +114,8 @@
       <workItem from="1616144490229" duration="5137000" />
       <workItem from="1616234441024" duration="4316000" />
       <workItem from="1616404839946" duration="1737000" />
-      <workItem from="1617111724353" duration="4042000" />
+      <workItem from="1617111724353" duration="4369000" />
+      <workItem from="1617175674360" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="Pragmatic exercise 1;">
       <created>1616066870684</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616151188297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Studied prime numbers;">
+      <created>1617127467618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617127467618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pragmatic exercise 1;" />
     <MESSAGE value="Array validator- part1;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array validator- part1;" />
+    <MESSAGE value="Studied prime numbers;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Studied prime numbers;" />
   </component>
 </project>
