@@ -1,14 +1,27 @@
 package org.fasttrackit;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Numbers {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nr(1)= ");
         int number = scanner.nextInt();  // cin>>
+        if (!(number>0))
+            throw new RuntimeException("Please enter only positive numbers.");
+//        try
+//        {
+//
+//           String s = "hello";
+//            number = Integer.parseInt(s);
+//
+//        } catch (NumberFormatException n)
+//        {
+//            System.out.println("INVALID- You have entered a character.");
+//        }
 
         int m = 0;
 
@@ -28,6 +41,9 @@ public class Numbers {
 
         System.out.println("Nr(2)= ");
         long N = scanner.nextLong();
+        if(!(N >0))
+            throw new RuntimeException("Please enter only positive numbers.");
+
         System.out.println("Numerele prime pana la " + N + " sunt: ");
 
 
@@ -42,6 +58,19 @@ public class Numbers {
         for (int i = 1; i < N; i++) {
             perfect(i);
         }
+
+        System.out.println("\nPlease enter the length of the array: ");
+        int L = scanner.nextInt();
+        int[] array = new int[L];
+        for(int i=0; i<L; i++)
+        {
+            System.out.println("a[" + i + "]= ");
+            array[i]= scanner.nextInt();
+        }
+        System.out.println("Afisare:");
+        for(int i=0; i<L; i++)
+            System.out.print(array[i] + " ");
+
     }
 
 

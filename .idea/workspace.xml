@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0aba58d-bf64-459e-b63e-459cd3e1f307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Constructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" afterDir="false" />
     </list>
@@ -55,6 +56,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Constructors" />
+      <module name="pragmatic-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CozaLozaWoza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.CozaLozaWoza" />
       <module name="pragmatic-exercises" />
@@ -81,15 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +109,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Numbers" />
+        <item itemvalue="Application.Constructors" />
         <item itemvalue="Application.ArrayValidator" />
         <item itemvalue="Application.CozaLozaWoza" />
       </list>
@@ -115,7 +128,8 @@
       <workItem from="1616234441024" duration="4316000" />
       <workItem from="1616404839946" duration="1737000" />
       <workItem from="1617111724353" duration="4369000" />
-      <workItem from="1617175674360" duration="2170000" />
+      <workItem from="1617175674360" duration="2388000" />
+      <workItem from="1617261136771" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="Pragmatic exercise 1;">
       <created>1616066870684</created>
@@ -138,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617127467618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Studied prime numbers;">
+      <created>1617178065759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617178065759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
