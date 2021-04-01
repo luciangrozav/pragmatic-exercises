@@ -24,6 +24,7 @@ public class Numbers {
 //        }
 
         int m = 0;
+        int k=0;
 
         if (number == 1 || number == 2 || number == 3)
             System.out.println(number + " este numar prim.");
@@ -68,6 +69,32 @@ public class Numbers {
             array[i]= scanner.nextInt();
         }
         System.out.println("Afisare:");
+        for(int i=0; i<L; i++)
+            System.out.print(array[i] + " ");
+        System.out.println("\nAfisare in ordine crescatoare: ");
+        for (int i=0; i<L; i++)
+        {
+            for (int j=i+1; j<L; j++)
+                if(array[i] >= array[j])
+                {
+                    k=array[i];
+                    array[i] = array[j];
+                    array[j]=k;
+                }
+        }
+        for(int i=0; i<L; i++)
+            System.out.print(array[i] + " ");
+        System.out.println("\nAfisare in ordine descrescatoare: ");
+        for (int i=0; i<L; i++)
+        {
+            for (int j=i+1; j<L; j++)
+                if(array[i] <= array[j])
+                {
+                    k=array[i];
+                    array[i] = array[j];
+                    array[j]=k;
+                }
+        }
         for(int i=0; i<L; i++)
             System.out.print(array[i] + " ");
 

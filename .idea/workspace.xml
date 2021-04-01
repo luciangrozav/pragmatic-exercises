@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0aba58d-bf64-459e-b63e-459cd3e1f307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Constructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Numbers.java" afterDir="false" />
     </list>
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../racing-game" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -95,13 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,7 +130,8 @@
       <workItem from="1616404839946" duration="1737000" />
       <workItem from="1617111724353" duration="4369000" />
       <workItem from="1617175674360" duration="2388000" />
-      <workItem from="1617261136771" duration="5653000" />
+      <workItem from="1617261136771" duration="5687000" />
+      <workItem from="1617274204612" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Pragmatic exercise 1;">
       <created>1616066870684</created>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617178065759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created array;">
+      <created>1617268049690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617268049690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +178,7 @@
     <MESSAGE value="Pragmatic exercise 1;" />
     <MESSAGE value="Array validator- part1;" />
     <MESSAGE value="Studied prime numbers;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Studied prime numbers;" />
+    <MESSAGE value="Created array;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created array;" />
   </component>
 </project>
