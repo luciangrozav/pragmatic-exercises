@@ -94,15 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,7 +129,8 @@
       <workItem from="1617111724353" duration="4369000" />
       <workItem from="1617175674360" duration="2388000" />
       <workItem from="1617261136771" duration="5687000" />
-      <workItem from="1617274204612" duration="694000" />
+      <workItem from="1617274204612" duration="748000" />
+      <workItem from="1617360841454" duration="1736000" />
     </task>
     <task id="LOCAL-00001" summary="Pragmatic exercise 1;">
       <created>1616066870684</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617268049690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created array; Afisare in ordine crescatoare/descrescatoare">
+      <created>1617274929143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617274929143</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +185,7 @@
     <MESSAGE value="Array validator- part1;" />
     <MESSAGE value="Studied prime numbers;" />
     <MESSAGE value="Created array;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created array;" />
+    <MESSAGE value="Created array; Afisare in ordine crescatoare/descrescatoare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created array; Afisare in ordine crescatoare/descrescatoare" />
   </component>
 </project>

@@ -48,7 +48,7 @@ public class Numbers {
         System.out.println("Numerele prime pana la " + N + " sunt: ");
 
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             prim(i);
         }
 
@@ -56,7 +56,7 @@ public class Numbers {
         System.out.println("Numerele perfecte pana la " + N + " sunt: ");
 
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             perfect(i);
         }
 
@@ -84,6 +84,7 @@ public class Numbers {
         }
         for(int i=0; i<L; i++)
             System.out.print(array[i] + " ");
+
         System.out.println("\nAfisare in ordine descrescatoare: ");
         for (int i=0; i<L; i++)
         {
@@ -98,11 +99,36 @@ public class Numbers {
         for(int i=0; i<L; i++)
             System.out.print(array[i] + " ");
 
+        System.out.println(" ");
+        k=0;
+        int[] arrayy = new int[L];
+        for(int i=0; i<L; i++)
+        {
+            System.out.println("b[" + i + "]= ");
+            arrayy[i]= scanner.nextInt();
+        }
+        for (int i=0; i<L; i++)
+        {
+            for (int j=i+1; j<L; j++)
+                if(arrayy[i] >= arrayy[j])
+                {
+                    k=arrayy[i];
+                    arrayy[i] = arrayy[j];
+                    arrayy[j]=k;
+                }
+        }
+        System.out.println("Cel mai mic numar din lista este: " + arrayy[0]);
+        for (int i=1; i<L;i++)
+        {arrayy[i]=arrayy[0];}
+        System.out.println("Lista inundata de cea mai mica valoare: ");
+        for (int i=0; i<L; i++)
+            System.out.print(arrayy[i] + " ");
+
     }
 
 
         private static void prim ( int a){
-            long k = 0;
+            int k = 0;
             if (a == 1 || a == 2 || a == 3)
                 System.out.print(a + " ");
 
